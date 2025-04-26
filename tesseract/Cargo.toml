@@ -3,6 +3,3 @@ name = "tesseract"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
-html_element = { path = "../html_element" }
-

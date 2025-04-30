@@ -6,11 +6,11 @@ React is a pretty awesome library, JavaScript is a pretty garbage language.
 
 This isn't React, but the development flow of "create a component and chuck it around" is very much here.
 
-Tesseract is a sort-of^\*^ server-side-rendering library to create web pages in Rust.
+Tesseract is a sort-of<sup>\*</sup> server-side-rendering library to create web pages in Rust.
 Tesseract is macro-driven and is intended to read as HTMl if done properly.
 Conveniently, most good React practices apply here:
 * For the love of god use components
-* State is evil^\*\*^, so it's not really supported
+* State is evil<sup>\*\*</sup>, so it's not really supported
 
 \*
 : It's more like one-time server side rendering (SSR), I.E. you build your app in rust and use my handy dandy macros to convert it to HTMl which you can then serve.

@@ -1,4 +1,4 @@
 [workspace]
 resolver = "2"
-members = ["tesseract", "example-site"]
+members = ["tesseract", "example-site", "tesseract-proc"]
 

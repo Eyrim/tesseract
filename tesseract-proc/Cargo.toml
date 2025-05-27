@@ -1,0 +1,16 @@
+[package]
+name = "tesseract-proc"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0.101" }
+quote = { version = "1.0.40" }
+deluxe = { version = "0.5.0" }
+proc-macro2 = { version = "1.0.95" }
+regex = { version = "1.11.1" }
+nom = "8.0.0"
+
